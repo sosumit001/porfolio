@@ -188,7 +188,7 @@ body{
     box-shadow: 1px 2px 6px 1px var(--main-bg-color);
     background-repeat: no-repeat;
     transition-duration: 500ms;
-   
+    background-position: center;
 }
 .social-link:hover{
     transform: scale(2);
@@ -243,7 +243,6 @@ body{
     overflow: hidden;
     background-color:#c4bfbf;
     box-shadow: 1px 6px 6px 1px black;
-
 }
 
 /* Contact page */
