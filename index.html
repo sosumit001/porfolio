@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumit So - Isn't he?</title>
+    <link rel="shortcut icon" href="./content/img/sosumo-white.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/31cc6a3b97.js" crossorigin="anonymous"></script>
+ 
+</head>
+<script>
+     const socialLinks = {
+    github : `https://github.com/sosumit001`,
+    youtube : `https://www.youtube.com/channel/UCxexS1mzyYhXMNnHYZbaQlQ`,
+    linkedin : `https://www.linkedin.com/in/sumit-soo-1415881a1/`,
+    instagram : `https://www.instagram.com/sumitso_001/`
+  }
+  function socialLinkFunc(id){
+    setTimeout(() => {
+        if(id == 1) { window.open(socialLinks.github)}
+        if(id == 2) { window.open(socialLinks.youtube)}
+        if(id == 3) { window.open(socialLinks.linkedin)}
+        if(id == 4) { window.open(socialLinks.instagram)}
+    }, 500);
+  };
+</script>
+<body>
+
+    <!-- shadow page -->
+    <div id="spill-shadow">
+        <div class="transition-box">
+            <a class="home-link link-odd"></a>
+        </div>
+        <div class="transition-box">
+            <a class="home-link link-even"></a>
+        </div>
+        <div class="transition-box">
+            <a class="home-link link-odd"></a>
+        </div>
+        <div class="transition-box">
+            <a class="home-link link-even"></a>
+        </div>
+    </div>
+
+    <!-- home page -->
+    <div id="main-home-page" class="web-page">
+        <img id = "home-sign" src="./content/svg/sign.svg" alt="">
+        <div id="main-home-img">
+            <img src="./content/img/sosumo.png" alt="">
+        </div>
+        
+        
+       
+    </div>
+
+    <!-- Social page -->
+    <div id="social-page">
+        <div id="social-close">
+            <div class="social-btn btn-a"></div >
+            <div class="social-btn btn-b"></div >
+        </div>
+        <div id="social-handles">
+        
+            <div id="github" class="social-link">
+                <div onclick="socialLinkFunc('1')" class="social-account-link" id="github-link">Github</div>
+            </div>
+            <div id="linkedin" class="social-link">
+                <div onclick="socialLinkFunc('2')" class="social-account-link">Youtube</div>
+            </div>
+            <div id="youtube" class="social-link">
+                <div onclick="socialLinkFunc('3')"
+                class="social-account-link">LinkedIn</div>
+            </div>
+            <div id="instagram" class="social-link">
+                <div onclick="socialLinkFunc('4')"
+                class="social-account-link">Instagram</div>
+            </div>
+        </div>
+    </div>
+    <!-- Work Page -->
+    <div id="work-page">
+
+        <div id="work-title-arrow">
+            <img id="work-cover-img"  src="./content/svg/arrow.svg" alt="">
+            <div id="work-page-detail">
+          <div class="work-title-para-len">
+            <span ><h2>As a Programmer & Web Design.</h2></span>
+            <span>
+                I'm working on a website that will make <b>programmer's life</b> easier
+<br>There will be an <b>online complier</b><br>
+You will be able to make anything from <b>scratch</b>
+            </span>
+        </div>
+
+        <div class="work-title-para-len">
+            <span ><h2>As a Youtuber</h2></span>
+            <span>
+                I have posted some videos on Data Structures and Algorithms
+                <br>
+                <span><a class = "work-youtube-link" target="_blank" href="https://www.youtube.com/channel/UCxexS1mzyYhXMNnHYZbaQlQ"=>Check it Out</a></span>
+            </span>
+        </div>
+
+        <div class="work-title-para-len">
+            <span ><h2>As an Animator</h2></span>
+            <span>
+                The Part I Like the Best, Creating 2-D Animation I Have a Good Experience with Blender
+            </span>
+        </div>
+            </div>
+        </div>
+        <div id="work-close">
+            <div class="work-btn btn-a"></div >
+            <div class="work-btn btn-b"></div >
+        </div>
+        <div id="img-profile-cover">
+            <img height="200px" src="./content/img/sosumo.png" alt="">
+        </div>
+      
+    </div>
+
+    <!-- Contact -->
+    <div id="contact-page">
+        <div id="contact-close">
+            <div class="social-btn btn-a"></div >
+            <div class="social-btn btn-b"></div >
+        </div>
+        <div class="contact-details">
+            <div id="contact-slogn">
+                <span class="contact-slogn-text">why not, work together</span>
+            </div>
+            <span class = "contact-detail-text">CONTACT DETAIL </span>
+            <div id="contact-ids">
+                <span id="email-no">
+                   <a >contact@sumitso.info</a>
+                </span>
+                <span id="mobile-no">
+                    +91 9817483146
+                </span>
+            </div>
+        </div>
+    </div>
+  <script src="script.js"></script>
+</body>
+
+</html> 
